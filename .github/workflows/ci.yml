@@ -20,6 +20,6 @@ jobs:
 
       - name: Installations des dépendances
         run: npm install
-
-      - run: npm ci
-      - run: npm test
+        
+      - name: Test de l'application
+        run: npm test
