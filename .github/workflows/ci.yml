@@ -23,6 +23,3 @@ jobs:
 
       - run: npm ci
       - run: npm test
-        env:
-          NODE_ENV: test
-      
